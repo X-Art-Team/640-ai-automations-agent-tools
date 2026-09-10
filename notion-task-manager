@@ -1,0 +1,31 @@
+---
+name: notion-task-manager
+description: Check, create, and maintain Xart Notion tasks — health-check the board for drift, scaffold new tasks with context, draft outbound comms inline, and brief stakeholders on real project status.
+---
+
+# Notion Task Creator & Manager
+
+**When to use:** Checking in on Xart Notion tasks, creating a new task from a conversation or someone else's ask, or preparing a status update for a stakeholder.
+
+## 1. Task board health check
+- Pull the full open task list (status, due date, owner, priority) for the relevant project.
+- Sort into buckets: past-due with no clear reason (flag, don't guess), unowned-but-obvious (assign directly), duplicates (consolidate, note why on the losing task), outdated premise (flag explicitly, don't silently archive).
+- Never assume completion on someone else's task — flag it, only mark Done 🙌 on direct confirmation or clear downstream evidence.
+- Leave a one-line "Update — [name], [date]" note whenever you close, merge, or re-date something.
+- Summarize grouped by what needs the owner's attention vs. what's informational.
+
+## 2. Creating a new task
+- Capture the raw context (who asked, what they need, any deadline) as given.
+- Break it into: Context, Open questions, Plan of attack / next steps.
+- Link it to a Parent Task or Project where one obviously applies.
+- Match existing property names exactly — Status (Doing, Stuck, Next Up, Ongoing, Maybe Later, Sub, Done 🙌), Priority (Low/Medium/High), Owner(s), Project, Due, Parent Task/Sub-Tasks.
+
+## 3. Drafting comms inline
+- When a task needs an email or message, write the draft directly in the task page content — never send from Gmail/Slack automatically.
+- Leave it for the owner to review and send themselves.
+
+## 4. Stakeholder status briefing
+- Structure: (1) where we are, in plain language; (2) what's actually happened recently — dated, concrete, not aspirational; (3) where we're headed and what's gating it; (4) specific input needed from them.
+- Pull from real task data, not memory — verify status before stating it as fact.
+- Separate "blocked on an external party" from "stalled, no clear reason" — don't conflate them.
+- Cut anything that's just internal bookkeeping; keep only what changes their understanding or next action.
